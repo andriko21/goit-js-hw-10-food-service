@@ -23,7 +23,7 @@ function switcherTheme(event) {
   // console.log(body.classList.contains(Theme.DARK))
   localStorage.setItem('theme', body.classList.value);
 }
-
+//
 checkboxSwitcher.addEventListener('change', switcherTheme);
 
 currentTheme();
